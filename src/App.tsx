@@ -182,66 +182,103 @@ function App() {
           </div>
         )}
       </nav>
+{/* Hero Section - Images with Stacked Red Buttons */}
+<section id="home" className="pt-16 relative overflow-hidden">
+  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+    <div className="flex flex-col gap-12 items-center">
+      
+      {/* First Image Section */}
+      <div className="relative w-full max-w-xl">
+        <img
+          src="/632edcdd-a1d6-4bfb-8a71-c38dfde920b0.png"
+          alt="Dragon Tiger Game"
+          className="rounded-3xl w-full transform hover:scale-105 transition-transform duration-500"
+        />
+      </div>
 
-      {/* Hero Section - Images with Stacked Red Buttons */}
-      <section id="home" className="pt-16 relative overflow-hidden">
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <div className="flex flex-col gap-12 items-center">
-            {/* First Image Section */}
-            <div className="relative w-full max-w-xl">
-              <img
-                src="/632edcdd-a1d6-4bfb-8a71-c38dfde920b0.png"
-                alt="Dragon Tiger Game"
-                className="rounded-3xl w-full transform hover:scale-105 transition-transform duration-500"
-              />
-            </div>
+      {/* First Buttons Stacked */}
+      <div className="flex flex-col gap-6 w-full max-w-sm">
+        {[
+          {
+            label: "Download 3 Patti Dragon Tiger Club Official",
+            link: "https://dragontigerclub.net/?from_gameid=5850799&channelCode=100000",
+          },
+          {
+            label: "Download 3 Patti NO.1",
+            link: "https://dragontigerclub.net/?from_gameid=5801295&channelCode=100000",
+          },
+          {
+            label: "Download 3 Patti Crown",
+            link: "https://dragontigerclub.net/?from_gameid=5806525&channelCode=100000",
+          },
+          {
+            label: "Download 3 Patti Blue",
+            link: "https://dragontigerclub.net/?from_gameid=5806525&channelCode=100000",
+          },
+        ].map((btn, i) => (
+          <a
+            key={i}
+            href={btn.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-gradient-to-r from-red-600 via-red-700 to-red-600 hover:from-red-500 hover:via-red-600 hover:to-red-500 text-white px-10 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-3 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-red-500/25 relative"
+          >
+            <Download size={20} />
+            {btn.label}
+          </a>
+        ))}
+      </div>
 
-            {/* First Buttons Stacked */}
-            <div className="flex flex-col gap-6 w-full max-w-sm">
-              {[...Array(4)].map((_, i) => (
-                <button
-                  key={i}
-                  className="group bg-gradient-to-r from-red-600 via-red-700 to-red-600 hover:from-red-500 hover:via-red-600 hover:to-red-500 text-white px-10 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-3 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-red-500/25 relative"
-                >
-                  <Download size={20} />
-                  Download
-                </button>
-              ))}
-            </div>
+      {/* Second Image Section */}
+      <div className="relative w-full max-w-xl mt-12">
+        <img
+          src="/01370601-027a-4f93-9470-863f8c3de3a9.png"
+          alt="Second Dragon Tiger Game"
+          className="rounded-3xl w-full transform hover:scale-105 transition-transform duration-500"
+        />
+      </div>
 
-            {/* Second Image Section */}
-            <div className="relative w-full max-w-xl mt-12">
-              <img
-                src="/01370601-027a-4f93-9470-863f8c3de3a9.png"
-                alt="Second Dragon Tiger Game"
-                className="rounded-3xl w-full transform hover:scale-105 transition-transform duration-500"
-              />
-            </div>
+      {/* Second Buttons */}
+      <div className="flex flex-col gap-6 w-full max-w-sm">
+        {[
+          {
+            label: "Download 3 Patti Gold",
+            link: "https://dragontigerclub.net/?from_gameid=5801295&channelCode=100000",
+          },
+          {
+            label: "Download 3 Patti Lucky",
+            link: "https://dragontigerclub.net/?from_gameid=5850799&channelCode=100000",
+          },
+          {
+            label: "Download 3 Patti Official",
+            link: "https://dragontigerclub.net/?from_gameid=5850799&channelCode=100000",
+          },
+        ].map((btn, i) => (
+          <a
+            key={i}
+            href={btn.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-gradient-to-r from-red-600 via-red-700 to-red-600 hover:from-red-500 hover:via-red-600 hover:to-red-500 text-white px-10 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-3 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-red-500/25 relative"
+          >
+            <Download size={20} />
+            {btn.label}
+          </a>
+        ))}
+      </div>
 
-            {/* Second Buttons */}
-            <div className="flex flex-col gap-6 w-full max-w-sm">
-              {[...Array(3)].map((_, i) => (
-                <button
-                  key={i}
-                  className="group bg-gradient-to-r from-red-600 via-red-700 to-red-600 hover:from-red-500 hover:via-red-600 hover:to-red-500 text-white px-10 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-3 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-red-500/25 relative"
-                >
-                  <Download size={20} />
-                  Download
-                </button>
-              ))}
-            </div>
+      {/* Third Image Section */}
+      <div className="relative w-full max-w-xl mt-12">
+        <img
+          src="/8aec91bd-2fba-4e10-ba3a-4d778792f9f0.png"
+          alt="Third Dragon Tiger Game"
+          className="rounded-3xl w-full transform hover:scale-105 transition-transform duration-500"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
-            {/* Third Image Section */}
-            <div className="relative w-full max-w-xl mt-12">
-              <img
-                src="/8aec91bd-2fba-4e10-ba3a-4d778792f9f0.png"
-                alt="Third Dragon Tiger Game"
-                className="rounded-3xl w-full transform hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
 
       <AboutSection/>
 
