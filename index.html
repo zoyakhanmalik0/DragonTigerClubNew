@@ -2,30 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dragon Tiger Club Game Promotion Website</title>
+    <title>Dragon Tiger Club - Game Promotion Website</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Dragon Tiger Club - Play and enjoy the ultimate gaming experience with rewards, bonuses, and excitement. Join now!" />
+    <meta name="keywords" content="Dragon Tiger Club, online game, gaming rewards, play and win, fun games" />
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Dragon Tiger Club - Play & Win Rewards" />
+    <meta property="og:description" content="Join Dragon Tiger Club and experience thrilling gameplay with exciting rewards." />
+    <meta property="og:image" content="/dragon-tiger-banner.png" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/dragon-tiger-favicon.png" type="image/png" />
 
     <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '658797476657346');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=658797476657346&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '658797476657346');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=658797476657346&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- No JavaScript Fallback -->
+    <noscript>
+      <p style="text-align:center; color:red;">
+        Please enable JavaScript to play Dragon Tiger Club.
+      </p>
+    </noscript>
+
+    <!-- Vite React Entry Point -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
