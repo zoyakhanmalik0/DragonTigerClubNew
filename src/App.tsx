@@ -205,7 +205,7 @@ function App() {
           },
           {
             label: "Download 3 Patti NO.1",
-            link: "https://dragontigerclub.net/?from_gameid=5801295&channelCode=100000",
+            link: "https://dragontigerclub.net/?from_gameid=5852935&channelCode=100000",
           },
           {
             label: "Download 3 Patti Crown",
