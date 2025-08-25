@@ -201,19 +201,19 @@ function App() {
         {[
           {
             label: "Download 3 Patti Dragon Tiger Club Official",
-            link: "https://dragontigerclub.net/?from_gameid=5801295&channelCode=100000",
+            link: "https://DragonTigerClub.pk?from_gameid=5806525&channelCode=100000",
           },
           {
             label: "Download 3 Patti NO.1",
-            link: "https://dragontigerclub.net/?from_gameid=5806525&channelCode=100000",
+            link: "https://DragonTigerClub.pk?from_gameid=5801295&channelCode=100000",
           },
           {
             label: "Download 3 Patti Crown",
-            link: "https://dragontigerclub.net/?from_gameid=5850799&channelCode=100000",
+            link: "https://DragonTigerClub.pk?from_gameid=5850799&channelCode=5801295",
           },
           {
             label: "Download 3 Patti Blue",
-            link: "https://dragontigerclub.net/?from_gameid=5850799&channelCode=100000",
+            link: "https://DragonTigerClub.pk?from_gameid=5850799&channelCode=5801295",
           },
         ].map((btn, i) => (
           <a
@@ -243,15 +243,15 @@ function App() {
         {[
           {
             label: "Download 3 Patti Gold",
-            link: "https://dragontigerclub.net/?from_gameid=5801295&channelCode=100000",
+            link: "https://DragonTigerClub.pk?from_gameid=5801295&channelCode=100000",
           },
           {
             label: "Download 3 Patti Lucky",
-            link: "https://dragontigerclub.net/?from_gameid=5801295&channelCode=100000",
+            link: "https://DragonTigerClub.pk?from_gameid=5801295&channelCode=100000",
           },
           {
             label: "Download 3 Patti Official",
-            link: "https://dragontigerclub.net/?from_gameid=5850799&channelCode=100000",
+            link: "https://DragonTigerClub.pk?from_gameid=5850799&channelCode=5801295",
           },
         ].map((btn, i) => (
           <a
