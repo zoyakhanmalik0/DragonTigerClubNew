@@ -209,7 +209,7 @@ function App() {
           },
           {
             label: "Download 3 Patti Crown",
-            link: "https://DragonTigerClub.pk?from_gameid=5850799&channelCode=5801295",
+            link: "https://DragonTigerClub.pk?from_gameid=5876411&channelCode=100000",
           },
           {
             label: "Download 3 Patti Blue",
